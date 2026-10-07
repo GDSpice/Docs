@@ -19,6 +19,8 @@ Fundamental passive elements used in circuit design.
    basic/Resistor
    basic/Capacitor
    basic/Inductor
+   basic/CapacitorIc
+   basic/InductorIc
 
 Source Components
 -----------------
@@ -27,12 +29,14 @@ Independent voltage and current sources for powering circuits.
 
 .. toctree::
    :maxdepth: 1
-
+   :caption: Sources
 
    sources/Vdc
    sources/Idc
-   sources/Vsin
+   sources/Sin
    sources/Isin
+   sources/Vsin
+   sources/Ipulse
 
 .. note::
    All symbols support advanced parameter modification. 
