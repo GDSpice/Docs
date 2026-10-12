@@ -33,10 +33,14 @@ Independent voltage and current sources for powering circuits.
 
    sources/Vdc
    sources/Idc
-   sources/Sin
-   sources/Isin
    sources/Vsin
+   sources/Isin
+   sources/Vpulse
    sources/Ipulse
+   sources/Vexp
+   sources/Iexp
+   sources/Vpwl
+   sources/Ipwl
 
 .. note::
    All symbols support advanced parameter modification. 
