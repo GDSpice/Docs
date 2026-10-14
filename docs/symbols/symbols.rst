@@ -41,6 +41,8 @@ Independent voltage and current sources for powering circuits.
    sources/Iexp
    sources/Vpwl
    sources/Ipwl
+   sources/Vac
+   sources/Iac
 
 .. note::
    All symbols support advanced parameter modification. 
