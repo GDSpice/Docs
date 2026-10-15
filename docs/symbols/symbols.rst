@@ -21,6 +21,7 @@ Fundamental passive elements used in circuit design.
    basic/Inductor
    basic/CapacitorIc
    basic/InductorIc
+   basic/TLine
 
 Source Components
 -----------------
@@ -29,7 +30,6 @@ Independent voltage and current sources for powering circuits.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Sources
 
    sources/Vdc
    sources/Idc
@@ -43,6 +43,18 @@ Independent voltage and current sources for powering circuits.
    sources/Ipwl
    sources/Vac
    sources/Iac
+
+Semiconductor Components
+------------------------
+
+Active semiconductor devices for rectification, amplification, and switching.
+
+.. toctree::
+   :maxdepth: 1
+
+   semiconductor/Diode
+   semiconductor/BJT_NPN
+   semiconductor/BJT_PNP
 
 .. note::
    All symbols support advanced parameter modification. 
